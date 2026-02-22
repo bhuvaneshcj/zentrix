@@ -22,11 +22,7 @@ APIs.
 
 All endpoints start with:
 
-http://your-domain.com/api
-
-Example (Local Development):
-
-http://127.0.0.1:8000/api
+https://zentrix.devnest.in/api
 
 ------------------------------------------------------------------------
 
