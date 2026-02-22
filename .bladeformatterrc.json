@@ -1,0 +1,13 @@
+{
+    "indentSize": 4,
+    "wrapAttributes": "preserve-aligned",
+    "wrapLineLength": 900,
+    "sortTailwindcssClasses": false,
+    "endWithNewline": true,
+    "useTabs": false,
+    "wrapAttributesIndentSize": 4,
+    "noMultipleEmptyLines": true,
+    "noPhpSyntaxCheck": false,
+    "noSingleQuote": false,
+    "extraLiners": ["head", "body", "/html"]
+}

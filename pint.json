@@ -1,0 +1,24 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "simplified_null_return": true,
+        "blank_line_after_opening_tag": true,
+        "line_ending": true,
+        "method_argument_space": true,
+        "no_extra_blank_lines": {
+            "tokens": [
+                "extra",
+                "throw",
+                "use"
+            ]
+        },
+        "no_spaces_after_function_name": true,
+        "no_spaces_inside_parenthesis": true,
+        "no_trailing_whitespace": true,
+        "no_trailing_whitespace_in_comment": true,
+        "single_blank_line_at_eof": true,
+        "single_quote": true,
+        "space_after_semicolon": true,
+        "trailing_comma_in_multiline": true
+    }
+}
