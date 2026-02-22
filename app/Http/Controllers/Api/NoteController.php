@@ -190,9 +190,15 @@ class NoteController extends Controller
     public function forceDelete(Request $request, $id)
     {
         try {
-            $note = Note::onlyTrashed()
+            $note = Note::withTrashed()
                 ->where('user_id', $request->user()->id)
                 ->findOrFail($id);
+
+            if (! $note->trashed()) {
+                return ApiResponse::error([
+                    'message' => 'Note must be in trash before permanent deletion',
+                ], 400);
+            }
 
             $note->forceDelete();
 
